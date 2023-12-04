@@ -7,7 +7,7 @@ Wealth Watch is a Python application (run on console) designed for investors to 
 
 Download and Visualise Data : The program has a download data method that allow the user to directly collect data extracted from yahoo finance by using yfincance package in python. Following this sense, the visualise data method allows the user to plot each stock's historical prices.
 
-Daily Stock Returns : This feature calculates each stock’s daily returns by using the historical data of the prices. These daily returns are calculated by using the formula Daily Returns = (Today's adjusted price - Yesterday's adjusted price)Yesterday's adjusted price
+Daily Stock Returns : This feature calculates each stock’s daily returns by using the historical data of the prices. These daily returns are calculated by using the formula Daily Returns = (Today's adjusted price - Yesterday's adjusted price)/Yesterday's adjusted price
 
 Average Stock Returns : This feature calculates the concrete return of each stock. In this sense, the program computes the average stock returns by calculating the average from the daily returns. 
 
